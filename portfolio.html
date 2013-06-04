@@ -27,25 +27,13 @@
 
       <div class="row-fluid">
         <div class="span6">
-          <h4><a href="http://brianyee-shaqbot.herokuapp.com/">Shaq Quote bot</a></h4>
-          <p>Simple app that sends you a quote by Shaquille O'Neal when you send a text to a Twilio number.</p>
-
-          <h4>Subheading</h4>
-          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-
-          <h4>Subheading</h4>
-          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+          <h4><a href="#CoderaisingModal" data-toggle="modal">Coderaising</a></h4>
+          <p>I was part of a team that built the Coderaising website.</p>
         </div>
 
         <div class="span6">
-          <h4>Subheading</h4>
-          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-
-          <h4>Subheading</h4>
-          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-
-          <h4>Subheading</h4>
-          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+          <h4><a href="#ShaqModal" data-toggle="modal">Shaq Quote bot</a></h4>
+          <p>Simple app that sends you a quote by Shaquille O'Neal when you send a text to a Twilio number.</p>
         </div>
       </div>
 
@@ -59,5 +47,34 @@
 
     </div> <!-- /container -->
 
+    <!-- Modal -->
+    <div id="CoderaisingModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="ShaqModalLabel" aria-hidden="true">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="ShaqModalLabel">Coderaising</h3>
+      </div>
+      <div class="modal-body">
+        <p>Coderaising</p>
+      </div>
+      <div class="modal-footer">
+        <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+      </div>
+    </div>
+
+    <div id="ShaqModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="ShaqModalLabel" aria-hidden="true">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="ShaqModalLabel">Shaq Quote bot</h3>
+      </div>
+      <div class="modal-body">
+        <p>Simple app that will text you a quote by Shaquille O'Neal.</p>
+      </div>
+      <div class="modal-footer">
+        <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+      </div>
+    </div>
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>
