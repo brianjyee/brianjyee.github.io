@@ -2,7 +2,7 @@ body {
   padding-top: 20px;
   padding-bottom: 40px;
   font-family: 'Tauri', sans-serif;
-  background-color: #222222;
+  background: url('../img/Grey-website-background.jpg');
   color: #eeeeee;
 }
 
