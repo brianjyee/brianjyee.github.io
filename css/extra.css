@@ -1,9 +1,5 @@
-body {
-  padding-top: 20px;
-  padding-bottom: 40px;
-  font-family: 'Tauri', sans-serif;
-  background: url('../img/Grey-website-background.jpg');
-  color: #ffffff;
+.brand {
+  margin-left: 200px;
 }
 
 /* Custom container */
