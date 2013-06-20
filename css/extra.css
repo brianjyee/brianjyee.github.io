@@ -1,3 +1,11 @@
+hr {
+  border-color: #bbbbbb;
+}
+
+.about-image {
+  margin-bottom: 30px;
+}
+
 .brand {
   margin-left: 200px;
 }
@@ -9,6 +17,7 @@
 }
 .container-narrow > hr {
   margin: 30px 0;
+  color: #bbbbbb;
 }
 
 .jumbotron {
