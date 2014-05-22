@@ -54,3 +54,7 @@ hr {
   margin-bottom: 0px;
   padding: 0px;
 }
+
+.grid-square {
+  background-color: gray;
+}
