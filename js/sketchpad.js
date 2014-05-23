@@ -27,6 +27,6 @@ var start = function() {
     }
 
     $('.grid-square').mouseenter(function() {
-        $(this).css('background-color', 'black');
+    $(this).css('background-color', 'black');
     })
 }
