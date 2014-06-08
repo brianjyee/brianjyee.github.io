@@ -6,10 +6,6 @@ hr {
   margin-bottom: 30px;
 }
 
-.brand {
-  margin-left: 200px;
-}
-
 /* Custom container */
 .container-narrow {
   margin: 0 auto;
@@ -21,7 +17,7 @@ hr {
 }
 
 .jumbotron {
-  margin: 60px 0;
+  padding-top: 12px;
   text-align: center;
 }
 .jumbotron h1 {
@@ -42,10 +38,8 @@ hr {
   margin-top: 20px;
 }
 
-.modal {
-  color: #000000;
+.modal-dialog {
   width: 800px;
-  margin-left: -400px;
 }
 
 .centeredImage {
