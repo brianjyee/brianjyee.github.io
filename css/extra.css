@@ -1,0 +1,93 @@
+hr {
+  border-color: #bbbbbb;
+}
+
+.about-image {
+  margin-bottom: 30px;
+}
+
+/* Custom container */
+.container-narrow {
+  margin: 0 auto;
+  max-width: 800px;
+}
+.container-narrow > hr {
+  margin: 30px 0;
+  color: #bbbbbb;
+}
+
+.jumbotron {
+  padding-top: 12px;
+  text-align: center;
+}
+.jumbotron h1 {
+  font-size: 36px;
+  line-height: 1;
+}
+
+.li-icon {
+  display: table-cell;
+  width: 26%;
+  margin-top: 30px;
+}
+.li-text {
+  display: table-cell;
+  vertical-align: middle;
+  width: 90%;
+  color: #858484;
+  margin-top: 20px;
+}
+
+.modal-dialog {
+  width: 800px;
+}
+
+.centeredImage {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.grid-square {
+  background-color: gray;
+}
+
+#calculator {
+  width: 400px;
+  height: 640px;
+  padding: 10px;
+  border: 2px solid black;
+  border-spacing: 8px;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+
+#display {
+  width: 100%;
+  height: 100px;
+  border: 1px solid black;
+  font-family: 'Calculator', monospace;
+  line-height: 90px;
+  font-size: 90px;
+  vertical-align: text-top;
+  text-align: right;
+  overflow: hidden;
+}
+
+#row1, #row2, #row3, #row4, #row5 {
+  display: table-row;
+}
+
+.calc-button {
+  width: 100px;
+  height: 90px;
+  border: 1px solid black;
+  text-align: center;
+  display: table-cell;
+  position: relative;
+  vertical-align: text-middle;
+  font-family: Unispace, 'SV Basic Manual', monospace;
+  font-size: 2.8em;
+  line-height: 90px;
+}
