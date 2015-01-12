@@ -1,4 +1,4 @@
-$('#start').click(function() {
+var start = function() {
     $('.grid').empty();
 
     var gridSize = prompt("What size grid?");
@@ -29,4 +29,4 @@ $('#start').click(function() {
     $('.grid-square').mouseenter(function() {
     $(this).css('background-color', 'black');
     })
-});
+}
