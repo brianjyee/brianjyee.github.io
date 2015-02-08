@@ -1,74 +1,291 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<head>
+    <title>Brian Yee</title>
+    <!-- Meta -->
     <meta charset="utf-8">
-    <title>brianyee.me</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="Brian Yee">
-
-    <!-- Le styles -->
-    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-    <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="mfglabs-iconset-master/css/mfglabs_iconset.css" rel="stylesheet">
-    <link href="css/extra.css" rel="stylesheet">
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-        ga('create', 'UA-41395061-1', 'brianyee.me');
-        ga('send', 'pageview');
-
-    </script>
-  </head>
-
-  <body>
-
-  <div class="navbar">
-    <div class="navbar-inner">
-      <div class="container-narrow">
-      </div>
-    </div><!-- /navbar-inner -->
-  </div><!-- /navbar -->
-
-    <div class="container-narrow">
-
-      <div class="jumbotron">
-        <h1>Brian Yee</h1>
-        <br>
-        <p class="lead">I am a web developer and data analyst. I have interests in data science, predictive modeling, statistics/probability, machine learning, gambling theory, sports forecasting, and technology.</p>
-      </div>
-
-      <hr>
-
-      <div class="row-fluid">
-        <div class="span3">
-            <a class="btn btn-large btn-primary" href="http://www.linkedin.com/pub/brian-yee/18/a69/913"><i class="icon-linked_in icon"></i> LinkedIn</a>
-        </div>
-        <div class="span3">
-            <a class="btn btn-large btn-success" href="https://github.com/brianjyee"><i class="icon-git_circle_alt"></i> Github</a>
-        </div>
-        <div class="span3">
-            <a class="btn btn-large btn-warning" href="portfolio.html"><i class="icon-file_alt"></i> Portfolio</a>
-        </div>
-        <div class="span3">
-            <a class="btn btn-large btn-info" href="about.html"><i class="icon-user_male"></i> About me</a>
-        </div>
-      </div>
-
-      <hr>
-
-      <div class="footer">
-        <span class="tel">781.690.0571</span>
-        <br>
-        <a class="email" href="mailto:yee.brianj@gmail.com">yee.brianj@gmail.com</a>
-      </div>
-
-    </div> <!-- /container -->
+    <meta name="description" content="Responsive HTML5 Website landing Page for Developers">
+    <meta name="author" content="3rd Wave Media">    
+    <link rel="shortcut icon" href="favicon.ico">  
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    <!-- github acitivity css -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+    <link rel="stylesheet" href="http://caseyscarborough.github.io/github-activity/github-activity-0.1.0.min.css">
     
-    <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-  </body>
-</html>
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head> 
+
+<body>
+    <!-- ******HEADER****** --> 
+    <header class="header">
+        <div class="container">                       
+            <img class="profile-image img-responsive pull-left" src="assets/images/profile.jpg" alt="Brian Yee" />
+            <div class="profile-content pull-left">
+                <h1 class="name">Brian Yee</h1>
+                <h2 class="desc">Web Developer</h2>   
+                <ul class="social list-inline">
+                    <li><a href="https://www.linkedin.com/pub/brian-yee/18/a69/913/en"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/brianjyee"><i class="fa fa-github-alt"></i></a></li>                  
+                </ul> 
+            </div><!--//profile-->
+        </div><!--//container-->
+    </header><!--//header-->
+    
+    <div class="container sections-wrapper">
+        <div class="row">
+            <div class="primary col-md-8 col-sm-12 col-xs-12">
+                <section class="about section">
+                    <div class="section-inner">
+                        <h2 class="heading">About Me</h2>
+                        <div class="content">
+                            <p>I am a self taught web developer and data analyst with experiece in PHP, Python, Javascript, and SQL.
+                            I am naturally curious and intensely motivated to learn new things. I am currently a software engineer at Wayfair. 
+                            I've developed code for order processing, data migration, payment gateway, content management, financial systems, and security.</p>    
+         
+					        <p>I'm interested in projects that involve data analysis, predictive modeling, gambling theory, artificial intelligence, machine learning, cryptography, e-commerce, market demographics, and socia media.
+					        I am interested in opportunities that require an analytic and perhaps even unconventional approach. I like to think outside of the box to develop creative solutions to otherwise difficult problems.</p>
+                         
+                         	<p>Apart from coding, I enjoy swimming, playing poker, and being a statistical sports geek.</p>
+
+                        </div><!--//content-->
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+<!--
+               <section class="latest section">
+                    <div class="section-inner">
+                        <h2 class="heading">Latest Projects</h2>
+                        <div class="content">    
+                                               
+                            <div class="item featured text-center">
+                                <h3 class="title"><a href="https://wrapbootstrap.com/theme/delta-promote-mobile-app-effectively-WB09R23P8?ref=3wm" target="_blank">KickStarter - Potato Salad App</a></h3>
+                                <p class="summary">A mobile app to help you make delicious potato salad</p>
+                                <div class="featured-image">
+                                    <a href="https://wrapbootstrap.com/theme/delta-promote-mobile-app-effectively-WB09R23P8?ref=3wm" target="_blank">
+                                    <img class="img-responsive project-image" src="assets/images/projects/project-featured.png" alt="project name" />
+                                    </a>
+                                    <div class="ribbon">
+                                        <div class="text">App</div>
+                                        </div>
+                                    </div>
+                                    
+                                <div class="desc text-left">                                    
+                                    <p>You can promote your main project here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.</p>
+                                    <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. At vero eos et accusamus et iusto odio dignissimos ducimus.</p>
+                                </div><!--//desc-->         
+<!--                                <a class="btn btn-cta-secondary" href="https://wrapbootstrap.com/theme/delta-promote-mobile-app-effectively-WB09R23P8?ref=3wm" target="_blank"><i class="fa fa-thumbs-o-up"></i> Back my project</a>                 
+                            </div><!--//item-->
+ <!--                           <hr class="divider" />
+                            <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12" href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-products-velocity/" target="_blank">
+                                <img class="img-responsive project-image" src="assets/images/projects/project-4.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title"><a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-products-velocity/" target="_blank">Velocity - Designed for Products</a></h3>
+                                    <p>You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.</p>
+                                    <p><a class="more-link" href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-products-velocity/" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                </div><!--//desc-->                          
+<!--                            </div><!--//item-->
+<!--
+                            <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12" href="https://wrapbootstrap.com/theme/tempo-designed-for-startups-WB07364T3?ref=3wm" target="_blank">
+                                <img class="img-responsive project-image" src="assets/images/projects/project-1.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title"><a href="https://wrapbootstrap.com/theme/tempo-designed-for-startups-WB07364T3?ref=3wm" target="_blank">Tempo - Designed for Startups</a></h3>
+                                    <p>You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.</p>
+                                    <p><a class="more-link" href="https://wrapbootstrap.com/theme/tempo-designed-for-startups-WB07364T3?ref=3wm" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                </div><!--//desc-->                          
+<!--                            </div><!--//item-->
+                            
+<!--                            <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12" href="https://wrapbootstrap.com/theme/delta-promote-mobile-app-effectively-WB09R23P8?ref=3wm" target="_blank">
+                                <img class="img-responsive project-image" src="assets/images/projects/project-2.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title"><a href="https://wrapbootstrap.com/theme/delta-promote-mobile-app-effectively-WB09R23P8?ref=3wm" target="_blank">Delta - Designed for Mobile Apps</a></h3>
+                                    <p> You can put one of your secondary projects here. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
+                                    <p><a class="more-link" href="https://wrapbootstrap.com/theme/delta-promote-mobile-app-effectively-WB09R23P8?ref=3wm" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                </div><!--//desc-->                          
+<!--                            </div><!--//item-->
+                            
+<!--                        </div><!--//content-->  
+<!--                    </div><!--//section-inner-->                 
+<!--                </section><!--//section-->
+                
+                <section class="experience section">
+                    <div class="section-inner">
+                        <h2 class="heading">Work Experience</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title">Software Engineer - <span class="place"><a href="http://www.wayfair.com">Wayfair</a></span> <span class="year">(2013 - Present)</span></h3>
+                                <p>Wayfair.com offers a zillion things home – the largest selection of home furnishings and décor across all styles and price points.</p>
+
+								<p>Financal Engineering Team<br>
+								- Redesigned the system for assigning delivery dates on which we recognize revenue.<br>
+								- Built rebate system for financial team using RESTful web services.<br>
+								- Building/maintaining processors that help facilitate monthly accounting close.</p>
+
+								<p>Platform Integration Team<br>
+								 - Integrated Wayfair Australia into existing codebase and server system.<br>
+								 - Touched all parts of the codebase including but not limited to order processing, payments, content management, frontend, data migration, and security.<br>
+								 - Wrote payment gateway that processes all Australian credit card payments.</p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title">Solution Specialist - <span class="place"><a href="http://www.xinn.com">Xinnovation</a></span> <span class="year">(2010 - 2013)</span></h3>
+                                <p>Xinnovation provides innovative client communication solutions to the enterprise that increase productivity across client services, sales, and marketing divisions.</p>
+
+								<p> - Designed, developed, and executed document reporting solutions, QA/testing, issue tracking, and troubleshooting.<br>
+								 - Managed projects through different stages of the software development cycle: development, QA, and production.<br>
+								 - Gathered solution requirements from customers.<br>
+								 - Manipulated large, complex data sets using database tables, SQL queries, Excel, XML, and business intelligence tools.<br>
+								 - Highly proficient with Microsoft SQL Server, Excel, Powerpoint, Word, Sharepoint, and XML. Gave sales presentation software demos to potential clients<br>
+								 - Trained clients and team members</p>
+                            </div><!--//item-->
+                            
+                            <div class="item">
+                                <h3 class="title">Accountant - <span class="place">Tufts Medical Center</span> <span class="year">(2007 - 2010)</span></h3>
+                                <p> - Responsible for general ledger, A/R accounts, and monthly budget reporting.<br>
+								 - Improved budgeting practices by analyzing historical cash flow, expense reports, variances, and trends.<br>
+								 - Developed and maintained models to project future cash earnings.<br>
+								 - Worked with Microsoft Dynamics GP systems.</p>
+                            </div><!--//item-->
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+                <section class="github section">
+                    <div class="section-inner">
+                        <h2 class="heading">My GitHub</h2>
+                        <div id="ghfeed" class="ghfeed">
+                        </div><!--//ghfeed-->
+                        
+                    </div><!--//secton-inner-->
+                </section><!--//section-->
+            </div><!--//primary-->
+            <div class="secondary col-md-4 col-sm-12 col-xs-12">
+                 <aside class="info aside section">
+                    <div class="section-inner">
+                        <h2 class="heading sr-only">Basic Information</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>Boston, MA</li>
+                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="mailto:yee.brianj@gmail.com">yee.brianj@gmail.com</a></li>
+                                <li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="#">http://brianyee.me</a></li>
+                            </ul>
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//aside-->
+                
+                <aside class="skills aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Skills</h2>
+                        <div class="content">
+                            <p class="intro">
+                            
+                            <div class="skillset">
+                               
+                                <div class="item">
+                                    <h3 class="level-title">PHP</h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="85%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">SQL &amp; Relational Databases</h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="85%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">Javascript &amp; jQuery</h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="65%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">HTML5, CSS3</h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="85%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Python &amp; Django</h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="75%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                            </div>              
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//section-->
+                
+                <aside class="testimonials aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Testimonials</h2>
+                        <div class="content">
+                            <div class="item">
+                                <blockquote class="quote">                                  
+                                    <p><i class="fa fa-quote-left"></i>
+                                    I worked with Brian for 3 years. He is extremely capable, creative and always willing to try something new.He is the go to guy in his department for all things technical. 
+                                    His work was always high quality and on schedule. He is an outstanding team player and just an all around great guy to work with. 
+                                    I would recommend Brian for any position, and I know that this is a guy with a brilliant career ahead of him.</p>
+                                </blockquote>                
+                                <p class="source"><span class="name">Kevin Murphy-Furguson</span><br /><span class="title">Software Arcitect</span></p>                                                             
+                            </div><!--//item-->
+                            
+                            <p><a class="more-link" href="https://www.linkedin.com/pub/brian-yee/18/a69/913/en"><i class="fa fa-external-link"></i> More on Linkedin</a></p> 
+                            
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+            </div><!--//secondary-->    
+        </div><!--//row-->
+    </div><!--//masonry-->
+    
+    <!-- ******FOOTER****** --> 
+    <footer class="footer">
+        <div class="container text-center">
+                <small class="copyright">Bootstrap Theme by <a href="http://themes.3rdwavemedia.com" target="_blank">3rd Wave Media</a> for developers</small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+ 
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
+    <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
+    <!-- github activity plugin -->
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <script type="text/javascript" src="http://caseyscarborough.github.io/github-activity/github-activity-0.1.0.min.js"></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>            
+</body>
+</html> 
+
